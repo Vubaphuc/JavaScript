@@ -102,3 +102,10 @@ let ramdom = Math.floor(Math.random() * products.length);
 let ramdom1 = Math.floor(Math.random() * products.length);
 console.log(products[ramdom]);
 console.log(products[ramdom1]);
+
+// hoặc 
+function randomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
+console.log( products[randomNumber(0, products.length -1)] );
+console.log( products[randomNumber(0, products.length -1)] );
