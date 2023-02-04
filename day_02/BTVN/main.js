@@ -98,3 +98,7 @@ console.log(products);
 
 
 // 10. Lấy ra 2 sản phẩm bất kỳ trong giỏ hàng
+let ramdom = Math.floor(Math.random() * products.length);
+let ramdom1 = Math.floor(Math.random() * products.length);
+console.log(products[ramdom]);
+console.log(products[ramdom1]);
