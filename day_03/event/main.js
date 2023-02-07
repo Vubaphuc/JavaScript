@@ -2,7 +2,7 @@
 
 const inputEl = document.querySelector("input");
 const resultEl = document.querySelector("span");
-
+// gõ Enter
 inputEl.addEventListener("keydown", (e) => {
     if (e.key == "Enter") {
         let term = inputEl.value;
